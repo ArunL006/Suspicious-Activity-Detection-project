@@ -1,37 +1,53 @@
-# Suspicious-Activity-Detection-project
-A deep learning-based real-time suspicious activity detection system using CNN and Cubic SVM, with instant Telegram alerts and a Flask web interface.
+# Credit EDA Project
 
 
-# Suspicious Activity Detection
-
-##  Overview
-This project implements a **Suspicious Activity Detection** system using **Machine Learning** and **Image Processing** techniques.  
-It processes video frames or images to detect unusual behaviors that may require attention in surveillance environments.
-
----
-
-## Features
-- Real-time activity monitoring  
-- Detection of abnormal movements  
-- Works with CCTV and pre-recorded videos  
-- Export of detection logs  
-
----
-
-##  Dataset
-The dataset used for training is from **[Kaggle](https://www.kaggle.com/)** / a custom surveillance dataset.  
-If large, download it from: https://drive.google.com/drive/folders/1iC7vDCQVIQPJj8837mq_Es87dSRjhDwj?usp=sharing
-
----
-
-##  Technologies Used
-- Python 3.x  
-- OpenCV  
-- TensorFlow / PyTorch  
-- NumPy, Pandas  
-- Matplotlib, Seaborn  
-- Jupyter Notebook  
-
----
+# Overview
+This project performs **Exploratory Data Analysis (EDA)** on a credit dataset to understand customer behavior, detect patterns, and analyze relationships between different financial attributes.  
+The notebook contains visualizations, statistical summaries, and insights that can help in decision-making for credit risk management.
 
 
+## Project Structure
+CreditEDA-Project/
+│
+├── creditEDA.ipynb    # Jupyter Notebook with full EDA
+├── README.md          # Project documentation
+└── .gitignore         # Ignored files (optional)
+
+# To run this project, install the following Python libraries:
+        pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+# Usage:
+1.Clone the repository:
+      git clone https://github.com/ArunL006/CreditEDA-Project.git
+      cd CreditEDA-Project
+
+2.Launch Jupyter Notebook:
+      jupyter notebook
+
+3.Open creditEDA.ipynb and run all cells.
+
+
+
+# Key Insights
+
+1.Distribution of credit amounts and customer demographics.
+2.Relationship between income, age, and credit history.
+3.Correlations among important financial features.
+4.Detection of missing values and outliers.
+
+# Future Work
+
+Build predictive models for credit risk.
+Deploy interactive dashboards using Plotly/Dash.
+Expand analysis with more datasets.
+
+# Contributing
+
+Contributions are welcome!
+Fork the repo
+Create a new branch
+Submit a pull request
+
+# License
+
+This project is licensed under the MIT License – you are free to use and modify it.
